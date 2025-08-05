@@ -8,7 +8,7 @@ function App() {
 
   return(
     <>
-    <BrowserRouter basename="/PathFound">
+    <BrowserRouter>
            <Routes>
              <Route path='/' element={<Home/>} />
              <Route path='/course' element={<CoursePlayer/>} />
