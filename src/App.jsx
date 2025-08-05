@@ -8,10 +8,10 @@ function App() {
 
   return(
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/PathFound">
            <Routes>
              <Route path='/PathFound' element={<Home/>} />
-             <Route path='course' element={<CoursePlayer/>} />
+             <Route path='/course' element={<CoursePlayer/>} />
            </Routes>
     </BrowserRouter>
          
