@@ -1,0 +1,43 @@
+.course-player {
+    display: flex;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.sidebar {
+    width: 300px;
+    background: #f7f7f7;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+    overflow-y: auto;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+}
+
+.lesson-item {
+    padding: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.lesson-item:hover {
+    background: #eee;
+}
+
+.lesson-item.active {
+    background: #d1e7ff;
+    font-weight: bold;
+}
+
+.video-player {
+    flex: 1;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
