@@ -94,7 +94,7 @@ const CoursePlayer = () => {
         {/* Sticky Header */}
         <div className="sticky top-0 bg-white z-10 p-6 border-b border-blue-100">
           <button
-            onClick={() => navigate('/PathFound/')}
+            onClick={() => navigate('/')}
             className="mb-4 bg-white px-4 py-2 rounded-full shadow hover:bg-gray-100 transition text-sm"
           >
             ← Back To Home
