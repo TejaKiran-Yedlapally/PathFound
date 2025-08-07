@@ -116,7 +116,7 @@ const CoursePlayer = () => {
         <aside className="md:w-2/6 w-full bg-white shadow-lg border-r border-blue-200 flex flex-col overflow-y-auto transition-all duration-300">
           <div className="sticky top-0 bg-white z-10 p-6 border-b border-blue-100">
             <button
-              onClick={() => navigate('/PathFound')}
+              onClick={() => navigate('/')}
               className="mb-4 bg-white px-4 py-2 rounded-full shadow hover:bg-gray-100 transition text-sm"
             >
               ← Back To Home

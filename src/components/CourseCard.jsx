@@ -82,7 +82,7 @@ const CourseCard = ({ title, playList, onDelete }) => {
           <div className="flex gap-2">
             <Button
               name="Start"
-              onClick={() => navigate("/PathFound/course", { state: { playList, title } })}
+              onClick={() => navigate("/course", { state: { playList, title } })}
               className="relative px-5 py-2 rounded-xl bg-gradient-to-r from-indigo-500 to-purple-600 text-white text-sm font-medium shadow-lg hover:shadow-indigo-400/40 transition-all duration-300 hover:scale-[1.03] active:scale-[0.97] backdrop-blur-md"
             >
               <span className="z-10 relative">Start</span>
